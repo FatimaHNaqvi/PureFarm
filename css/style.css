@@ -1,0 +1,42 @@
+.gradient-background {
+  background: linear-gradient(300deg, #74440bdb, #188556a5, #9eff71a8);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+.Testimonial{
+background-image: url(/images/tes);
+
+
+}
+#pricing{
+  color: #000;
+}
+.one{
+  margin: 0 10px;
+}
+img{
+  height: 630px;
+  width:330px;
+  border-radius: 35%;
+}
