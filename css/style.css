@@ -2,6 +2,7 @@
   background: linear-gradient(300deg, #74440bdb, #188556a5, #9eff71a8);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
+  height: 100%;
 }
 
 @keyframes gradient-animation {
@@ -16,7 +17,7 @@
   }
 }
 
-body{
+body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .icon-square {
@@ -25,23 +26,21 @@ body{
   border-radius: 0.75rem;
 }
 
-
-
-#pricing{
+#pricing {
   color: aliceblue;
   text-align: center;
-  background: linear-gradient(90deg, #188556a5, #8BC34A);
+  background: linear-gradient(90deg, #188556a5, #8bc34a);
   /* font-weight: 700; */
   /* position: relative; */
   /* margin-bottom: 1.5rem; */
   /* text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
 }
-.one{
+.one {
   margin: 0 10px;
 }
-img{
+img {
   height: 630px;
-  width:330px;
+  width: 330px;
   border-radius: 35%;
 }
 .pricing-header {
@@ -55,7 +54,7 @@ img{
 }
 
 .pricing-header::after {
-  content: '';
+  content: "";
   display: block;
   width: 300px;
   height: 4px;
