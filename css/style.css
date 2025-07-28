@@ -25,11 +25,14 @@ body {
   height: 3rem;
   border-radius: 0.75rem;
 }
-
+.Testimonial {
+  background-color: rgb(200, 200, 200);
+}
 #pricing {
-  color: aliceblue;
+  color: black;
+  /* background-color: gray; */
   text-align: center;
-  background: linear-gradient(90deg, #188556a5, #8bc34a);
+  /* background: linear-gradient(90deg, #188556a5, #8bc34a); */
   /* font-weight: 700; */
   /* position: relative; */
   /* margin-bottom: 1.5rem; */
@@ -38,9 +41,9 @@ body {
 .one {
   margin: 0 10px;
 }
-img {
-  height: 630px;
-  width: 330px;
+.row > img {
+  height: 830px;
+  width: 630px;
   border-radius: 35%;
 }
 .pricing-header {
